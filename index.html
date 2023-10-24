@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="UTF-8">
+        <title>Stitch Counter</title>
+    </head>
+    <body>
+    <!-- Start of displayed count information and header-->
+      <div class="counter">
+        <h1>Stitches Completed:</h1>
+        <div class="number">
+        <h2 id="count-el">0</h2>
+      </div>
+    <!-- End of displayed count information and header-->
+    <!-- Start of buttons-->
+      <div class="buttons">
+        <button id="increment-btn" onclick="increment()">Stitch</button>
+        <button id="save-btn" onclick="save()">Save</button>
+        <button id="reset-btn" onclick="reset()">Reset</button>
+      </div>
+    <!--End of buttons-->
+    <!-- Start of saved stitches-->
+        <p id="save-el">Saved Stitch Count:</p>
+    <!-- End of saved stitches-->
+    <!-- Incorporation of JS-->
+        <script src="index.js"></script>
+      </div>
+    </body>
+</html>

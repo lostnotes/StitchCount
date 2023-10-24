@@ -1,0 +1,72 @@
+
+body {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    background-image: url("background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Monaco, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    text-align: center;
+   /* I still have trouble with the height and width.  not sure what to do with it*/
+    min-height: 100vh;
+    max-width: 60%;
+    margin: 0 auto;
+}
+.counter {
+    max-width: 100%;
+    margin: 5vh auto;
+    border-style: none;
+    background-color: rgba(255, 255, 255, 90%);
+    border-radius: 12px;
+    padding: 10px;
+    display: flex;
+    flex-flow: column; 
+    justify-content: space-around;
+    box-shadow: 0 0 0 10px darkcyan;
+    
+}
+h1 {
+    align-self: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    max-width: 80%;
+}
+.number {
+    display: flex;
+    justify-content: space-around;
+}
+h2 {
+    font-size: 70px;
+
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#increment-btn {
+    background: darkgoldenrod;
+}
+
+#save-btn {
+     background: darkcyan;
+}
+
+#reset-btn {
+    background: darkred;
+}
+
+p {
+    font-size: small;
+    /*Add padding to the bottom so that you can keep track of more information without it becoming unbalanced*/
+    padding-bottom: 4vh;
+}
